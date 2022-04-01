@@ -15,6 +15,7 @@
 		11E5FADF27F71257009481E9 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5FADE27F71257009481E9 /* SigninView.swift */; };
 		11E5FAE127F71263009481E9 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5FAE027F71263009481E9 /* SignupView.swift */; };
 		11E5FAE327F71282009481E9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5FAE227F71282009481E9 /* ProfileView.swift */; };
+		11E5FAE927F713B7009481E9 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11E5FAE827F713B7009481E9 /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,10 @@
 		11E5FADE27F71257009481E9 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		11E5FAE027F71263009481E9 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		11E5FAE227F71282009481E9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		11E5FAE427F71383009481E9 /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		11E5FAE527F71383009481E9 /* Mulish-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Light.ttf"; sourceTree = "<group>"; };
+		11E5FAE727F71383009481E9 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		11E5FAE827F713B7009481E9 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 				11E5FACE27F70ECA009481E9 /* ContentView.swift */,
 				11E5FAD027F70ECD009481E9 /* Assets.xcassets */,
 				11E5FAD227F70ECD009481E9 /* Preview Content */,
+				11E5FAE827F713B7009481E9 /* Property List.plist */,
 			);
 			path = NextFit;
 			sourceTree = "<group>";
@@ -80,6 +86,9 @@
 		11E5FADA27F711D6009481E9 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				11E5FAE727F71383009481E9 /* Mulish-Bold.ttf */,
+				11E5FAE527F71383009481E9 /* Mulish-Light.ttf */,
+				11E5FAE427F71383009481E9 /* Mulish-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -153,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E5FAE927F713B7009481E9 /* Property List.plist in Resources */,
 				11E5FAD427F70ECD009481E9 /* Preview Assets.xcassets in Resources */,
 				11E5FAD127F70ECD009481E9 /* Assets.xcassets in Resources */,
 			);
